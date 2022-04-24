@@ -1,0 +1,30 @@
+.alice-carousel__dots-item:not(.__custom) {
+  width: 15px !important;
+  height: 15px !important;
+}
+
+.alice-carousel__dots {
+  margin-top: 10px !important;
+}
+
+.alice-carousel__dots li {
+  background-color: #e5e5e5 !important;
+}
+
+.alice-carousel__dots .__active {
+  background-color: #081614 !important;
+}
+
+.alice-carousel__prev-btn-item,
+.alice-carousel__next-btn-item {
+  font-size: 35px !important;
+  background-color: #081614 !important;
+  border-radius: 20px;
+  color: #fff !important;
+}
+
+.sliderimg {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}

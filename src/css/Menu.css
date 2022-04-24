@@ -1,0 +1,86 @@
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: var(--main-background-gradient);
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+  box-shadow: var(--shadow);
+}
+
+nav ul {
+  list-style: none;
+  justify-content: center;
+  display: flex;
+}
+
+nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+}
+
+.topmenu li a {
+  padding: 22px;
+  font-size: 15px;
+  color: var(--black-color);
+  text-transform: uppercase;
+  font-weight: bold;
+  flex-wrap: nowrap;
+}
+
+.topmenu li:hover {
+  background-color: var(--topmenu-li-hover);
+}
+
+.Language-switcher:hover {
+  background-color: #00000000 !important;
+}
+
+.submenu {
+  display: block;
+  position: absolute;
+  z-index: 5;
+  background: var(--white-transparent-color);
+  border-radius: var(--border-radius);
+  border-top-left-radius: 0px;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-backdrop-filter: var(--blur);
+  backdrop-filter: var(--blur);
+}
+
+.submenu li {
+  position: relative;
+}
+
+.submenu li a {
+  color: var(--black-color);
+  padding: 10px 20px;
+  font-size: 13px;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.submenu li:hover {
+  background-color: var(--topmenu-li-hover);
+}
+
+.submenu li:first-child {
+  border-top-right-radius: 18px;
+}
+
+.submenu li:last-child {
+  border-bottom-right-radius: 19px;
+  border-bottom-left-radius: 19px;
+}
+
+nav li:hover > .submenu {
+  visibility: visible;
+  opacity: 1;
+}

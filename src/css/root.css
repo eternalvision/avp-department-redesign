@@ -1,0 +1,16 @@
+:root {
+  --white-color: #fdfbfb;
+  --white-transparent-color: #fdfbfbe0;
+  --black-color: #081614;
+  --complementary-color: #e5e5e5;
+  --topmenu-li-hover: #e5e5e5;
+  --main-background-moz-gradient: -moz-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
+  --main-background-webkit-gradient: -webkit-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
+  --main-background-gradient: linear-gradient(-121deg, #fdfbfbcb 0%, #eaedeeda 100%);
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  --transparent: #00000000 !important;
+
+  --border: 2px solid #e5e5e5;
+  --border-radius: 20px;
+  --blur: blur(10px);
+}
