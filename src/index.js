@@ -6,6 +6,7 @@ import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 import Header from "./components/Header/Header";
 import Menu from "./components/Header/Menu";
 import Slider from "./components/Main/Slider";
+import Main from "./components/Main/Main";
 import reportWebVitals from "./reportWebVitals";
 
 const themes = {
@@ -21,6 +22,7 @@ root.render(
         <Header />
         <Menu />
         <Slider />
+        <Main />
       </ThemeSwitcherProvider>
     </LanguageContextProvider>
   </React.StrictMode>
