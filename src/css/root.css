@@ -3,6 +3,7 @@
   --black-color: #081614;
   --complementary-color: #e5e5e5;
   --topmenu-li-hover: #e5e5e5;
+  --main-content-color: #e1e3e3da;
   --main-background-moz-gradient: -moz-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
   --main-background-webkit-gradient: -webkit-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
   --main-background-gradient: linear-gradient(-121deg, #fdfbfbcb 0%, #eaedeeda 100%);
@@ -13,3 +14,10 @@
   --border-radius: 20px;
   --blur: blur(10px);
 }
+
+/*
+background: #9999a4;
+background: -moz-linear-gradient(to right,  #9999a4 0%,#60606b 100%);
+background: -webkit-linear-gradient(to right,  #9999a4 0%,#60606b 100%);
+background: linear-gradient(to right,  #9999a4 0%,#60606b 100%);
+*/
