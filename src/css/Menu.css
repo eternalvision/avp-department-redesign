@@ -1,4 +1,14 @@
+.Menu-list {
+  justify-content: space-between;
+  display: flex;
+  padding: 30px 40px 20px;
+  margin-bottom: 0;
+  color: var(--black-color);
+  border-bottom: var(--border);
+}
+
 nav {
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
@@ -25,8 +35,12 @@ nav a {
   display: block;
 }
 
+/* .topmenu {
+  margin-bottom: 0;
+} */
+
 .topmenu li a {
-  padding: 22px;
+  padding: 20px;
   font-size: 15px;
   color: var(--black-color);
   text-transform: uppercase;
@@ -46,13 +60,12 @@ nav a {
   display: block;
   position: absolute;
   z-index: 5;
-  background: var(--white-transparent-color);
+  background: var(--white-color);
   border-radius: var(--border-radius);
   border-top-left-radius: 0px;
   visibility: hidden;
   opacity: 0;
-  -webkit-backdrop-filter: var(--blur);
-  backdrop-filter: var(--blur);
+  /* margin-top: 9px; */
 }
 
 .submenu li {

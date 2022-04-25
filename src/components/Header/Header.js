@@ -1,11 +1,9 @@
 import React from "react";
-import "../css/Header.css";
-
-import useTranslation from "../components/customHooks/translations";
-
+import useTranslation from "../customHooks/translations";
 import RightMenu from "./RightMenu";
 
-import logo from "../img/logo.png";
+import logo from "../../img/logo.png";
+import "../../css/Header.css";
 
 function Header() {
   const strings = useTranslation();
@@ -21,7 +19,9 @@ function Header() {
             <li className="Logo-title">{strings.title}</li>
           </ul>
         </li>
-        <RightMenu />
+        <li className="Right-menu">
+          <RightMenu />
+        </li>
       </ul>
     </header>
   );

@@ -1,0 +1,38 @@
+@import url("./root.css");
+
+body {
+  background: var(--dark-background-color);
+}
+
+li,
+a {
+  color: var(--dark-color) !important;
+}
+
+.topmenu {
+  background: var(--dark-background-menu) !important;
+}
+
+.submenu {
+  background: var(--dark-background-submenu) !important;
+}
+
+.topmenu li:hover {
+  background-color: var(--dark-hover);
+}
+.Theme-switch-list {
+  background-color: var(--dark-color);
+}
+
+.Theme-switch-list:hover {
+  background-color: var(--dark-hover);
+}
+
+.Language-switcher select {
+  background-color: var(--dark-color);
+  color: var(--dark-background-color);
+}
+
+.Menu-list {
+  border-bottom: var(--dark-border);
+}
