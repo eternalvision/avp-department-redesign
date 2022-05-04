@@ -1,7 +1,11 @@
+@import url("./Content.css");
+
 .Main-headlines {
   text-transform: uppercase;
   font-size: 20px;
+  text-align: center;
 }
+
 .Main-content-list {
   display: flex;
   justify-content: space-evenly;
@@ -9,7 +13,8 @@
 }
 
 .Main-content-list li {
-  /* background-color: #e1e3e3da; */
   padding-top: 10px;
   border-radius: var(--border-radius);
+  width: 380px;
+  text-align: center;
 }

@@ -1,0 +1,22 @@
+import React from "react";
+import ddma from "../../../img/news/ddmaa.jpg";
+
+function MainNews() {
+  return (
+    <ul className="Main-news">
+      <li>
+        <img src={ddma} alt="" />
+        <div className="Main-news-text">
+          <p>Разом до перемоги!</p>
+          <p>
+            Шановні студенти, викладачі й співробітники! Свій 69-й день народження Академія святкує у буремний час – 57
+            днів у нашій країні триває війна, страшна й нещадна, гинуть люди, руйнуються міста. Через вторгнення росії в
+            Україну багато з нас вимушені були переїхати у більш безпечні міста, дехто за ...
+          </p>
+        </div>
+      </li>
+    </ul>
+  );
+}
+
+export default MainNews;

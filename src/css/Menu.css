@@ -62,7 +62,8 @@ nav a {
   position: absolute;
   z-index: 5;
   background: var(--white-color);
-  border-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  border-bottom-left-radius: var(--border-radius);
   border-top-left-radius: 0px;
   visibility: hidden;
   opacity: 0;
@@ -85,10 +86,6 @@ nav a {
   background-color: var(--topmenu-li-hover);
 }
 
-.submenu li:first-child {
-  border-top-right-radius: 18px;
-}
-
 .submenu li:last-child {
   border-bottom-right-radius: 19px;
   border-bottom-left-radius: 19px;
@@ -97,4 +94,8 @@ nav a {
 nav li:hover > .submenu {
   visibility: visible;
   opacity: 1;
+}
+
+.searchBtn {
+  display: none;
 }

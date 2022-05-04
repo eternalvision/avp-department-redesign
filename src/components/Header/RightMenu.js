@@ -15,7 +15,7 @@ function RightMenu() {
           <img src={search} alt="searchBtn" />
         </button>
       </li>
-      <li className="Theme-switch-list">
+      <li className="Theme-switch-list searchBtn">
         <button className="Search-btn">
           <img src={menu} alt="searchBtn" />
         </button>
