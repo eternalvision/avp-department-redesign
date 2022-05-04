@@ -18,9 +18,9 @@ body {
 
 body {
   background: var(--white-color);
-  /* background: var(--main-background-moz-gradient);
+  background: var(--main-background-moz-gradient);
   background: var(--main-background-webkit-gradient);
-  background: var(--main-background-gradient); */
+  background: var(--main-background-gradient);
   background-repeat: no-repeat;
 }
 
