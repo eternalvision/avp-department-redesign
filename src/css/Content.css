@@ -22,7 +22,8 @@
 
 .Main-news-text {
   background-color: #e5e5e5b5;
-  backdrop-filter: blur(var(--border-radius));
+  backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur));
   position: absolute;
   margin-top: -100px;
   max-height: 210px;
