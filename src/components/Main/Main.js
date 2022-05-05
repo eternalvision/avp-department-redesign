@@ -29,9 +29,7 @@ function Main() {
       <section className="Content">
         <ul className="AllNews-Container">
           <li>
-            <a href="">
-              <MainNews />
-            </a>
+            <MainNews />
             <SecondaryNews />
           </li>
           <li>

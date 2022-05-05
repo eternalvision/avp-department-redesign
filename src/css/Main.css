@@ -2,7 +2,7 @@
 
 .Main-headlines {
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 20px 0 20px 20px;
   text-align: center;
 }
 
@@ -14,7 +14,6 @@
 
 .Main-content-list li {
   padding-top: 10px;
-  border-radius: var(--border-radius);
-  width: 380px;
+  width: 520px;
   text-align: center;
 }

@@ -1,12 +1,9 @@
 import React from "react";
-import ddma from "../../../img/news/ddmaa.jpg";
 
 function MainNews() {
   return (
-    <ul className="Main-news">
-      <li>
-        <img src={ddma} alt="" />
-      </li>
+    <ul className="Alerts-news">
+      <li></li>
     </ul>
   );
 }
