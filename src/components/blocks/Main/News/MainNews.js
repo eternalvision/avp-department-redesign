@@ -1,12 +1,12 @@
 import React from "react";
-import ddma from "../../../img/news/ddmaa.jpg";
+import ddma from "../../../../img/news/ddmaa.jpg";
 import SecondaryNews from "./SecondaryNews";
 
 function MainNews() {
   return (
     <li>
-      <a href="">
-        <ul className="Main-news">
+      <ul className="Main-news">
+        <a href="">
           <li>
             <img src={ddma} alt="" />
             <div className="Main-news-text">
@@ -18,8 +18,8 @@ function MainNews() {
               </p>
             </div>
           </li>
-        </ul>
-      </a>
+        </a>
+      </ul>
       <SecondaryNews />
     </li>
   );

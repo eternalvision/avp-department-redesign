@@ -1,15 +1,7 @@
 import React from "react";
 
+import { NewsComponents } from "./News/index.js";
 // import useTranslation from "../customHooks/translations";
-
-import MainNews from "./News/MainNews.js";
-import Alerts from "./News/Alerts";
-import AlertsNews from "./News/AlertsNews";
-import SocialLinks from "./News/SocialLinks";
-import Videos from "./News/Videos";
-import AcademyLife from "./News/AcademyLife";
-
-import "../../css/Main.css";
 
 function Main() {
   // const strings = useTranslation();
@@ -31,15 +23,15 @@ function Main() {
       </section>
       <section className="Content">
         <ul className="AllNews-Container">
-          <MainNews />
+          <NewsComponents.MainNews />
           <li>
-            <Alerts />
-            <AlertsNews />
+            <NewsComponents.Alerts />
+            <NewsComponents.AlertsNews />
           </li>
           <li>
-            <SocialLinks />
-            <Videos />
-            <AcademyLife />
+            <NewsComponents.SocialLinks />
+            <NewsComponents.Videos />
+            <NewsComponents.AcademyLife />
           </li>
         </ul>
       </section>

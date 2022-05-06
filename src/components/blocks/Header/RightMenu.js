@@ -1,8 +1,8 @@
 import React from "react";
-import ThemeSwitcher from "../customComponents/ThemeSwitcher";
+import ThemeSwitcher from "../../customComponents/ThemeSwitcher";
 
-import search from "../../img/search.png";
-import menu from "../../img/menu.png";
+import search from "../../../img/search.png";
+import menu from "../../../img/menu.png";
 
 function RightMenu() {
   return (

@@ -1,9 +1,8 @@
 import React from "react";
-import "../../css/Slider.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
-import { sliderImage } from "../../img";
+import { sliderImage } from "../../../img";
 
 function Slider() {
   return (

@@ -1,9 +1,8 @@
 import React from "react";
-import useTranslation from "../customHooks/translations";
+import useTranslation from "../../customHooks/translations";
 import RightMenu from "./RightMenu";
 
-import logo from "../../img/logo.png";
-import "../../css/Header.css";
+import logo from "../../../img/logo.png";
 
 function Header() {
   const strings = useTranslation();

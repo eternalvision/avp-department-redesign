@@ -1,7 +1,5 @@
-import useTranslation from "../customHooks/translations";
-import LanguageHandler from "../customComponents/LanguageHandler";
-
-import "../../css/Menu.css";
+import useTranslation from "../../customHooks/translations";
+import LanguageHandler from "../../customComponents/LanguageHandler";
 
 function Menu() {
   const strings = useTranslation();

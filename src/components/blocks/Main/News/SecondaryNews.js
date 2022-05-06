@@ -1,7 +1,7 @@
 import React from "react";
 
-import { newsImages } from "../../../img";
-import { army } from "../../../img";
+import { newsImages } from "../../../../img";
+// import { army } from "../../../../img";
 
 function SecondaryNews() {
   return (

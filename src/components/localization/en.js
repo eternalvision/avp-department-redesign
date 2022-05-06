@@ -1,4 +1,4 @@
-import { enMenuItems } from "../json/index";
+import { enMenuItems } from "./json/index";
 
 const en = {
   //! dataTitle
