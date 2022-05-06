@@ -1,6 +1,6 @@
 import React from "react";
 
-function MainNews() {
+function AlertsNews() {
   return (
     <ul className="Alerts-news">
       <li></li>
@@ -8,4 +8,4 @@ function MainNews() {
   );
 }
 
-export default MainNews;
+export default AlertsNews;

@@ -1,6 +1,6 @@
 import React from "react";
 
-function MainNews() {
+function SocialLinks() {
   return (
     <ul className="Social-links">
       <li></li>
@@ -8,4 +8,4 @@ function MainNews() {
   );
 }
 
-export default MainNews;
+export default SocialLinks;

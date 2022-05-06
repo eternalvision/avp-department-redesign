@@ -40,6 +40,13 @@ nav a {
   height: 57px;
 }
 
+@media only screen and (max-width: 1501px) {
+  .topmenu {
+    /* overflow-x: auto;
+    overflow-y: hidden; */
+  }
+}
+
 .topmenu li a {
   padding: 20px;
   font-size: 15px;
