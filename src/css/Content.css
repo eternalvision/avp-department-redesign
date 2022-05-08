@@ -23,6 +23,7 @@
 
 .Main-news {
   position: relative;
+  margin: 10px;
 }
 
 .Main-news-text {
@@ -59,6 +60,7 @@
   border-radius: 20px;
   box-shadow: var(--shadow);
   height: 450px;
+  /* margin-left: 10px; */
 }
 
 .Second-news {
@@ -73,7 +75,7 @@
   box-shadow: var(--shadow);
   padding: 10px;
   position: relative;
-  margin-right: 20px;
+  margin: 10px;
   height: 250px;
 }
 
@@ -107,15 +109,15 @@
 
 .Alerts {
   display: grid;
-  grid-template-columns: 265px 265px;
+  grid-template-columns: 270px 270px;
 }
 
 .Alerts li {
   background-color: #e5e5e5;
   border-radius: 10px;
   box-shadow: var(--shadow);
-  padding: 5px 5px 1px 5px;
-  margin-right: 10px;
+  padding: 10px 10px 4px 10px;
+  margin: 10px;
   margin-bottom: 10px;
 }
 
@@ -126,7 +128,7 @@
 
 .Alerts li:nth-child(3) a img,
 .Alerts li:nth-child(8) a img {
-  width: 510px;
+  width: 500px;
 }
 
 .Alerts li:nth-child(8) {
@@ -135,6 +137,6 @@
 
 .Alerts li a img {
   border-radius: 10px;
-  width: 250px;
-  height: 95px;
+  width: 230px;
+  height: 94px;
 }
