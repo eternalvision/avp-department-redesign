@@ -3,20 +3,47 @@ import { alertsImages } from "../../../../img";
 
 function Alerts() {
   return (
-    <ul className="Main-news">
-      <a href="">
-        <li>
+    <ul className="Alerts">
+      <li>
+        <a href="">
           <img src={alertsImages.dzo} alt="" />
-          <div className="Main-news-text">
-            <p>Разом до перемоги!</p>
-            <p>
-              Шановні студенти, викладачі й співробітники! Свій 69-й день народження Академія святкує у буремний час –
-              57 днів у нашій країні триває війна, страшна й нещадна, гинуть люди, руйнуються міста. Через вторгнення
-              росії в Україну багато з нас вимушені були переїхати у більш безпечні міста, дехто за ...
-            </p>
-          </div>
-        </li>
-      </a>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.sikorsky} alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.donbasUkraine} alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.donScienceCenter} alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.it} alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.tempusErasmus} alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.naukoviVidanya} alt="" />
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <img src={alertsImages.ukrCourses} alt="" />
+        </a>
+      </li>
     </ul>
   );
 }
