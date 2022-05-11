@@ -90,9 +90,9 @@
   padding: 10px;
   margin-top: -50px;
   border-radius: 20px;
-  background-color: #e5e5e5b5;
-  backdrop-filter: blur(var(--blur));
-  -webkit-backdrop-filter: blur(var(--blur));
+  background-color: #e5e5e5;
+  /* backdrop-filter: blur(var(--blur));
+  -webkit-backdrop-filter: blur(var(--blur)); */
   max-width: 231px;
   max-height: 100px;
 }
@@ -110,15 +110,19 @@
 .Alerts {
   display: grid;
   grid-template-columns: 270px 270px;
-}
-
-.Alerts li {
   background-color: #e5e5e5;
   border-radius: 20px;
   box-shadow: var(--shadow);
+}
+
+.Alerts li {
   padding: 10px 10px 4px 10px;
   margin: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 2px;
+}
+
+.Alerts li a img:hover {
+  box-shadow: var(--shadow);
 }
 
 .Alerts li:nth-child(3) {
