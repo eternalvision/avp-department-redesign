@@ -29,9 +29,10 @@ function Main() {
             <NewsComponents.AlertsNews />
           </li>
           <li>
-            <NewsComponents.SocialLinks />
+            <NewsComponents.AcademyMagazine />
             <NewsComponents.Videos />
             <NewsComponents.AcademyLife />
+            <NewsComponents.UsefullLinks />
           </li>
         </ul>
       </section>
