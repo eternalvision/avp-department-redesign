@@ -1,8 +1,10 @@
 :root {
   --white-color: #fdfbfb;
   --black-color: #081614;
+  --black-color-2: #000000a9;
   --complementary-color: #e5e5e5;
   --topmenu-li-hover: #e5e5e5;
+  --hover-2: #555;
   --main-content-color: #e1e3e3da;
   --main-background-moz-gradient: -moz-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
   --main-background-webkit-gradient: -webkit-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
@@ -12,7 +14,9 @@
 
   --border: 2px solid #e5e5e5;
   --border-radius: 20px;
+  --border-radius-2: 5px;
   --blur: 20px;
+  --blur-2: 10px;
 }
 
 /*

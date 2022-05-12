@@ -1,6 +1,7 @@
 import React from "react";
 import useTranslation from "../../customHooks/translations";
 import RightMenu from "./RightMenu";
+import ButtonTop from "../Main/ButtonTop";
 
 import logo from "../../../img/logo.png";
 
@@ -9,6 +10,7 @@ function Header() {
 
   return (
     <header className="App-header">
+      <ButtonTop />
       <ul className="Menu-list">
         <li className="Title">
           <ul>
