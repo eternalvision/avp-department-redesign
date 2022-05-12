@@ -34,7 +34,7 @@
 }
 
 .Language-switcher select {
-  padding: 10px;
+  padding: 9.5px;
   border: 1px solid var(--black-color);
   background-color: var(--black-color);
   color: var(--white-color);

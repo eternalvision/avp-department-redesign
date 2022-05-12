@@ -173,3 +173,20 @@
   padding: 10px 0px 30px 20px;
   font-size: 18px;
 }
+
+.Social-links {
+  background-color: #e5e5e5;
+  padding: 25px 20px 0px 20px;
+  margin-top: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.Social-links li {
+}
+
+.Social-links li a img {
+  width: 35px;
+}
