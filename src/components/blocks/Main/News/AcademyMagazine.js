@@ -3,7 +3,7 @@ import { academyMagazine } from "../../../../img";
 
 function AcademyMagazine() {
   return (
-    <ul className="Social-links">
+    <ul className="Academy-magazine">
       <li>
         <a href="">
           <img src={academyMagazine.gazetaBanner} alt="" />

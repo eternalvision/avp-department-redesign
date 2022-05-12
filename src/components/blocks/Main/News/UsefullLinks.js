@@ -2,7 +2,7 @@ import React from "react";
 
 function UsefullLinks() {
   return (
-    <ul className="Academy-life">
+    <ul className="Usefull-links">
       <li></li>
     </ul>
   );

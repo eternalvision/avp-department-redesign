@@ -28,8 +28,9 @@ function Main() {
             <NewsComponents.Alerts />
             <NewsComponents.AlertsNews />
           </li>
-          <li>
+          <li className="Additional-content">
             <NewsComponents.AcademyMagazine />
+            <NewsComponents.SocialLinks />
             <NewsComponents.Videos />
             <NewsComponents.AcademyLife />
             <NewsComponents.UsefullLinks />

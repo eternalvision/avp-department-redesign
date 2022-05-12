@@ -2,7 +2,7 @@ import React from "react";
 
 function Videos() {
   return (
-    <ul className="Alerts-news">
+    <ul className="Videos">
       <li></li>
     </ul>
   );
