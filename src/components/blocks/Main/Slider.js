@@ -20,10 +20,10 @@ const items = [
   <div className="item" data-value="5">
     <img src={sliderImage.naychoby} className="sliderimg" alt="" />
   </div>,
-  <div className="item" data-value="4">
+  <div className="item" data-value="6">
     <img src={sliderImage.hvuluna} className="sliderimg" alt="" />
   </div>,
-  <div className="item" data-value="5">
+  <div className="item" data-value="7">
     <img src={sliderImage.ofpoz} className="sliderimg" alt="" />
   </div>,
 ];

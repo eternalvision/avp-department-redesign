@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./css/index.css";
+
+import App from "./App";
+
 import LanguageContextProvider from "./components/contexts/LanguageContext";
 import { ThemeSwitcherProvider } from "react-css-theme-switcher";
-
-import { HeaderComponents } from "../src/components/index";
-import { MainComponents } from "../src/components/index";
-import { FooterComponents } from "../src/components/index";
 
 import reportWebVitals from "./reportWebVitals";
 
@@ -20,11 +19,7 @@ root.render(
   <React.StrictMode>
     <LanguageContextProvider>
       <ThemeSwitcherProvider defaultTheme="light" themeMap={themes}>
-        <HeaderComponents.Header />
-        <HeaderComponents.Menu />
-        <MainComponents.Slider />
-        <MainComponents.Main />
-        <FooterComponents.Footer />
+        <App />
       </ThemeSwitcherProvider>
     </LanguageContextProvider>
   </React.StrictMode>

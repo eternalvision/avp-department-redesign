@@ -56,6 +56,8 @@
 .Second-news {
   margin-top: 20px;
   display: grid;
+  display: -ms-grid;
+  -ms-grid-columns: 270px 270px;
   grid-template-columns: 270px 270px;
 }
 
@@ -98,8 +100,8 @@
 .Alerts {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 270px 270px;
   grid-template-columns: 270px 270px;
+  -ms-grid-columns: 270px 270px;
   background-color: #e5e5e5;
   border-radius: 20px;
   box-shadow: var(--shadow);
@@ -134,7 +136,7 @@
 .Additional-content {
   position: sticky;
   position: -webkit-sticky;
-  top: 70px;
+  top: 75px;
 }
 
 .Academy-magazine {
@@ -177,7 +179,7 @@
 }
 
 .Social-links li a {
-  padding: 20px 10px 1px;
+  padding: 22px 10px 1px;
   border-radius: var(--border-radius-2);
 }
 
@@ -187,5 +189,4 @@
 
 .Social-links li a img {
   width: 35px;
-  /* display: block; */
 }

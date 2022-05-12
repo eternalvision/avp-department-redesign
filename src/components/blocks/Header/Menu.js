@@ -1,3 +1,6 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
 import useTranslation from "../../customHooks/translations";
 import LanguageHandler from "../../customComponents/LanguageHandler";
 
@@ -8,7 +11,11 @@ function Menu() {
     <nav>
       <ul className="topmenu">
         <li>
-          <a href="">{strings.aboutDDMA}</a>
+          <a href="/">Головна</a>
+          <ul className="submenu"></ul>
+        </li>
+        <li>
+          <Link to="/about">{strings.aboutDDMA}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.basicInformation}</a>
@@ -49,7 +56,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.rectorate}</a>
+          <Link to="/rectorat">{strings.rectorate}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.electionOfTheRector}</a>
@@ -69,7 +76,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.faculties}</a>
+          <Link to="/faculties">{strings.faculties}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.appAndIt}</a>
@@ -86,7 +93,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.subdivisions}</a>
+          <Link to="/subdivisions">{strings.subdivisions}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.centerForDistanceAndDistanceEducation}</a>
@@ -115,7 +122,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.toTheEntrant}</a>
+          <Link to="/applicant">{strings.toTheEntrant}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.conditionsOfEntry}</a>
@@ -165,7 +172,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.science}</a>
+          <Link to="/science">{strings.science}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.startupSchool}</a>
@@ -212,7 +219,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.toTheStudent}</a>
+          <Link to="/forstudents">{strings.toTheStudent}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.disciplinesOfFreeChoice}</a>
@@ -274,7 +281,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.toTheGraduate}</a>
+          <Link to="/graduate">{strings.toTheGraduate}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.informationForGraduates}</a>
@@ -291,7 +298,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.NGOs}</a>
+          <Link to="/organizations">{strings.NGOs}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.studentGovernmentCouncil}</a>
@@ -305,7 +312,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.wording}</a>
+          <Link to="/editorial">{strings.wording}</Link>
           <ul className="submenu">
             <li>
               <a href="">{strings.editorialPolicy}</a>
@@ -337,7 +344,7 @@ function Menu() {
           </ul>
         </li>
         <li>
-          <a href="">{strings.news}</a>
+          <Link to="/news">{strings.news}</Link>
         </li>
         <li className="Language-switcher">
           <LanguageHandler />
