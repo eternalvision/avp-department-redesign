@@ -4,18 +4,42 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 import { sliderImage } from "../../../img";
 
+const items = [
+  <div className="item" data-value="1">
+    <img src={sliderImage.dgma} className="sliderimg" alt="" />
+  </div>,
+  <div className="item" data-value="2">
+    <img src={sliderImage.alarm} className="sliderimg" alt="" />
+  </div>,
+  <div className="item" data-value="3">
+    <img src={sliderImage.vypuskniki} className="sliderimg" alt="" />
+  </div>,
+  <div className="item" data-value="4">
+    <img src={sliderImage.bannerLinia} className="sliderimg" alt="" />
+  </div>,
+  <div className="item" data-value="5">
+    <img src={sliderImage.naychoby} className="sliderimg" alt="" />
+  </div>,
+  <div className="item" data-value="4">
+    <img src={sliderImage.hvuluna} className="sliderimg" alt="" />
+  </div>,
+  <div className="item" data-value="5">
+    <img src={sliderImage.ofpoz} className="sliderimg" alt="" />
+  </div>,
+];
+
 function Slider() {
   return (
     <div className="Slider">
-      <AliceCarousel autoPlay autoPlayInterval="4000" infinite disableButtonsControls>
-        <img src={sliderImage.dgma} className="sliderimg" alt="" />
-        <img src={sliderImage.alarm} className="sliderimg" alt="" />
-        <img src={sliderImage.vypuskniki} className="sliderimg" alt="" />
-        <img src={sliderImage.bannerLinia} className="sliderimg" alt="" />
-        <img src={sliderImage.naychoby} className="sliderimg" alt="" />
-        <img src={sliderImage.hvuluna} className="sliderimg" alt="" />
-        <img src={sliderImage.ofpoz} className="sliderimg" alt="" />
-      </AliceCarousel>
+      <AliceCarousel
+        mouseTracking
+        autoPlay
+        autoPlayInterval="4000"
+        items={items}
+        infinite
+        disableButtonsControls
+        controlsStrategy="alternate"
+      />
     </div>
   );
 }
