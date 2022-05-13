@@ -3,11 +3,11 @@ footer {
   backdrop-filter: blur(var(--blur));
   -webkit-backdrop-filter: blur(var(--blur));
   box-shadow: var(--shadow);
-  height: 70px;
+  height: 68px;
   position: fixed;
   bottom: 0;
   width: 100%;
-  padding: 13px 20px;
+  padding: 12px 15px 0 0;
 }
 
 footer ul {
@@ -17,8 +17,16 @@ footer ul {
 }
 
 footer ul li {
-  padding-right: 20px;
+  padding: 0 10px;
   text-align: center;
+}
+
+footer ul li a {
+  text-align: center;
+}
+
+footer ul li:first-child {
+  padding-left: 0;
 }
 
 footer ul li:last-child {
@@ -26,6 +34,7 @@ footer ul li:last-child {
 }
 
 .Footer-imgs {
+  margin: 0 auto;
   vertical-align: middle;
 }
 
@@ -34,5 +43,7 @@ footer ul li:last-child {
 }
 
 .Numbers a {
+  font-size: 19px;
   display: block;
+  border-bottom: 1px solid var(--black-color);
 }
