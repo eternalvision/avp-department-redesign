@@ -4,6 +4,7 @@
 @import url("./Content");
 @import url("./Header");
 @import url("./Main");
+@import url("./Footer");
 @import url("./Menu");
 @import url("./Slider");
 
@@ -30,6 +31,7 @@ body {
   background: var(--main-background-webkit-gradient);
   background: var(--main-background-gradient);
   background-repeat: no-repeat;
+  padding-bottom: 77px;
 }
 
 ul {
@@ -38,4 +40,5 @@ ul {
 
 a {
   color: var(--black-color);
+  text-decoration: none;
 }

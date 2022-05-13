@@ -1,7 +1,7 @@
 import React from "react";
 import useTranslation from "../../customHooks/translations";
 import RightMenu from "./RightMenu";
-import ButtonTop from "../Main/ButtonTop";
+import ButtonTop from "../../routes/Main/ButtonTop";
 
 import logo from "../../../img/logo.png";
 

@@ -11,8 +11,7 @@ function Menu() {
     <nav>
       <ul className="topmenu">
         <li>
-          <a href="/">Головна</a>
-          <ul className="submenu"></ul>
+          <Link to="/">{strings.home}</Link>
         </li>
         <li>
           <Link to="/about">{strings.aboutDDMA}</Link>

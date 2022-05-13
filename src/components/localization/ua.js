@@ -3,6 +3,7 @@ import { menuItems } from "./json/index";
 const ua = {
   //! dataTitle
   title: `${menuItems.dataTitle.title}`,
+  home: `${menuItems.dataTitle.toHome}`,
   aboutDDMA: `${menuItems.dataTitle.aboutDDMA}`,
   rectorate: `${menuItems.dataTitle.rectorate}`,
   faculties: `${menuItems.dataTitle.faculties}`,
@@ -14,6 +15,7 @@ const ua = {
   NGOs: `${menuItems.dataTitle.NGOs}`,
   wording: `${menuItems.dataTitle.wording}`,
   news: `${menuItems.dataTitle.news}`,
+  upButton: `${menuItems.dataTitle.upButton}`,
   //! aboutDDMA
   basicInformation: `${menuItems.dataAbout.basicInformation}`,
   honorPage: `${menuItems.dataAbout.honorPage}`,

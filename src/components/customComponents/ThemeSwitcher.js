@@ -2,6 +2,8 @@ import React from "react";
 import { useThemeSwitcher } from "react-css-theme-switcher";
 import Switch from "react-switch";
 
+localStorage.setItem("theme", "light");
+
 const ThemeSwitcher = () => {
   const { switcher, themes } = useThemeSwitcher();
   const [isDarkMode, setIsDarkMode] = React.useState(false);

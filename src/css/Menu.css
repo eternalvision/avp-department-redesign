@@ -57,7 +57,7 @@ nav a {
 }
 
 .topmenu li:hover {
-  background-color: var(--topmenu-li-hover);
+  background-color: var(--hover-3);
 }
 
 .Language-switcher:hover {

@@ -1,15 +1,14 @@
 import React from "react";
 
-import { HeaderComponents, FooterComponents } from "../index";
-
 function AboutDDMA() {
   return (
-    <>
-      <HeaderComponents.Header />
-      <HeaderComponents.Menu />
-      <div>О Ддма</div>
-      <FooterComponents.Footer />
-    </>
+    <main>
+      <h2>Адреси</h2>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </main>
   );
 }
 

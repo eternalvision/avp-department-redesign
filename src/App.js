@@ -2,10 +2,13 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import { RouteComponents } from "./components/routes/index";
+import { HeaderComponents, FooterComponents } from "./components/index";
 
 function App() {
   return (
     <Router>
+      <HeaderComponents.Header />
+      <HeaderComponents.Menu />
       <Routes>
         <Route path="/" element={<RouteComponents.Home />} />
         <Route exact path="/about" element={<RouteComponents.AboutDDMA />} />
@@ -20,6 +23,7 @@ function App() {
         <Route exact path="/editorial" element={<RouteComponents.Editorial />} />
         <Route exact path="/news" element={<RouteComponents.News />} />
       </Routes>
+      <FooterComponents.Footer />
     </Router>
   );
 }

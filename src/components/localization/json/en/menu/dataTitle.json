@@ -1,4 +1,5 @@
 {
+  "toHome": "Home",
   "title": "Donbas State Machine Building Academy",
   "aboutDDMA": "About DDMA",
   "rectorate": "Rectorate",
@@ -10,5 +11,6 @@
   "toTheGraduate": "Graduate",
   "NGOs": "Public organizations",
   "wording": "Editorial",
-  "news": "News"
+  "news": "News",
+  "upButton": "UP"
 }
