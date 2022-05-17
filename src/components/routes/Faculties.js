@@ -1,10 +1,17 @@
 import React from "react";
+import useTranslation from "../customHooks/translations";
 
 function Faculties() {
+  const strings = useTranslation();
+
   return (
-    <>
-      <div>Факультеты</div>
-    </>
+    <main>
+      <p>{strings.faculties}</p>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </main>
   );
 }
 

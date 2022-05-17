@@ -1,10 +1,17 @@
 import React from "react";
+import useTranslation from "../customHooks/translations";
 
 function Applicant() {
+  const strings = useTranslation();
+
   return (
-    <>
-      <div>Абитуриенту</div>
-    </>
+    <main>
+      <p>{strings.toTheEntrant}</p>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </main>
   );
 }
 

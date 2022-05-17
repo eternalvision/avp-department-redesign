@@ -17,40 +17,40 @@ function Menu() {
           <Link to="/about">{strings.aboutDDMA}</Link>
           <ul className="submenu">
             <li>
-              <a href="">{strings.basicInformation}</a>
+              <Link to="/about/basicinformation">{strings.basicInformation}</Link>
             </li>
             <li>
-              <a href="">{strings.honorPage}</a>
+              <Link to="/about/honor">{strings.honorPage}</Link>
             </li>
             <li>
-              <a href="">{strings.licensesAndCertificates}</a>
+              <Link to="/about/licenses">{strings.licensesAndCertificates}</Link>
             </li>
             <li>
-              <a href="">{strings.documentsOnHigherEducation}</a>
+              <Link to="/about/highereducation">{strings.documentsOnHigherEducation}</Link>
             </li>
             <li>
-              <a href="">{strings.academicCouncil}</a>
+              <Link to="/about/council">{strings.academicCouncil}</Link>
             </li>
             <li>
-              <a href="">{strings.regulations}</a>
+              <Link to="/about/regulations">{strings.regulations}</Link>
             </li>
             <li>
-              <a href="">{strings.generalAndPublicInformation}</a>
+              <Link to="/about/generalinformation">{strings.generalAndPublicInformation}</Link>
             </li>
             <li>
-              <a href="">{strings.educationalProgramsAndCurricula}</a>
+              <Link to="/about/educationprograms">{strings.educationalProgramsAndCurricula}</Link>
             </li>
             <li>
-              <a href="">{strings.estimateAndFinancialReport}</a>
+              <Link to="/about/estimate">{strings.estimateAndFinancialReport}</Link>
             </li>
             <li>
-              <a href="">{strings.vacancies}</a>
+              <Link to="/about/vacancies">{strings.vacancies}</Link>
             </li>
             <li>
-              <a href="">{strings.history}</a>
+              <Link to="/about/history">{strings.history}</Link>
             </li>
             <li>
-              <a href="">{strings.contacts}</a>
+              <Link to="/about/contacts">{strings.contacts}</Link>
             </li>
           </ul>
         </li>

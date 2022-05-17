@@ -1,11 +1,18 @@
 import React from "react";
+import useTranslation from "../customHooks/translations";
 
-function ForStudents() {
+function Science() {
+  const strings = useTranslation();
+
   return (
-    <>
-      <div>Наука</div>
-    </>
+    <main>
+      <p>{strings.science}</p>
+      <ul>
+        <li></li>
+        <li></li>
+      </ul>
+    </main>
   );
 }
 
-export default ForStudents;
+export default Science;

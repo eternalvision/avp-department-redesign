@@ -1,16 +1,17 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { academyMagazine } from "../../../../img";
 
 function AcademyMagazine() {
   return (
     <ul className="Academy-magazine">
       <li>
-        <a href="">
+        <Link to="/main/academymagazine">
           <img src={academyMagazine.gazetaBanner} alt="" />
           <div className="Social-main-title">
             <p>Свіжий номер газети «Академія» вже на сайті</p>
           </div>
-        </a>
+        </Link>
       </li>
     </ul>
   );

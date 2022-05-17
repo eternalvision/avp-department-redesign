@@ -1,9 +1,12 @@
 import React from "react";
+import useTranslation from "../customHooks/translations";
 
 function AboutDDMA() {
+  const strings = useTranslation();
+
   return (
     <main>
-      <h2>Адреси</h2>
+      <p>{strings.aboutDDMA}</p>
       <ul>
         <li></li>
         <li></li>

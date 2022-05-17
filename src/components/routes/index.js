@@ -11,6 +11,9 @@ import Organizations from "./Organizations";
 import Editorial from "./Editorial";
 import News from "./News";
 
+import { AboutDDMARoutes } from "./AboutDDMA/index";
+import { MainRoutes } from "./MainRoutes/index";
+
 export const RouteComponents = {
   AboutDDMA,
   Home,
@@ -24,4 +27,6 @@ export const RouteComponents = {
   Organizations,
   Editorial,
   News,
+  AboutDDMARoutes,
+  MainRoutes,
 };
