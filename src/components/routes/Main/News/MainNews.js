@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import ddma from "../../../../img/news/ddmaa.jpg";
 import SecondaryNews from "./SecondaryNews";
 
@@ -6,7 +8,7 @@ function MainNews() {
   return (
     <li>
       <ul className="Main-news">
-        <a href="">
+        <Link to="/main/topnews">
           <li>
             <img src={ddma} alt="" />
             <div className="Main-news-text">
@@ -18,7 +20,7 @@ function MainNews() {
               </p>
             </div>
           </li>
-        </a>
+        </Link>
       </ul>
       <SecondaryNews />
     </li>

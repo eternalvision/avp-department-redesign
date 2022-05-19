@@ -24,6 +24,10 @@ function App() {
         <Route exact path="/news" element={<RouteComponents.News />} />
 
         <Route exact path="/main/academymagazine" element={<RouteComponents.MainRoutes.Gazeta />} />
+        <Route exact path="/main/topnews" element={<RouteComponents.MainRoutes.MainNewsComponent />} />
+
+        <Route exact path="/alerts/solutionscenter" element={<RouteComponents.MainRoutes.SolutionsCenter />} />
+        <Route exact path="/alerts/solutionscenter" element={<RouteComponents.MainRoutes.InnovationCenter />} />
 
         <Route exact path="/about/basicinformation" element={<RouteComponents.AboutDDMARoutes.BasicInformation />} />
         <Route exact path="/about/honor" element={<RouteComponents.AboutDDMARoutes.HonorPage />} />
