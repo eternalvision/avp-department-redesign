@@ -1,12 +1,12 @@
 import React from "react";
 import useTranslation from "../customHooks/translations";
 
-function Applicant() {
+function RemoteCenter() {
   const strings = useTranslation();
 
   return (
     <main>
-      <p>{strings.toTheEntrant}</p>
+      <p className="Title-routes">{strings.toTheEntrant}</p>
       <ul>
         <li></li>
         <li></li>
@@ -15,4 +15,4 @@ function Applicant() {
   );
 }
 
-export default Applicant;
+export default RemoteCenter;

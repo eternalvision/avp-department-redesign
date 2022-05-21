@@ -5,9 +5,9 @@ function HonorPage() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.honorPage}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.honorPage}</p>
+    </main>
   );
 }
 

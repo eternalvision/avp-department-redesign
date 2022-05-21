@@ -5,9 +5,9 @@ function Contacts() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.contacts}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.contacts}</p>
+    </main>
   );
 }
 

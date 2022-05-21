@@ -5,9 +5,9 @@ function BasicInformation() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.basicInformation}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.basicInformation}</p>
+    </main>
   );
 }
 

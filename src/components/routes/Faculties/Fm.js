@@ -1,12 +1,13 @@
 import React from "react";
-import useTranslation from "../customHooks/translations";
 
-function AboutDDMA() {
+import useTranslation from "../../customHooks/translations";
+
+function Fm() {
   const strings = useTranslation();
 
   return (
     <main>
-      <p className="Title-routes">{strings.aboutDDMA}</p>
+      <p className="Title-routes">{strings.fM}</p>
       <ul>
         <li></li>
         <li></li>
@@ -15,4 +16,4 @@ function AboutDDMA() {
   );
 }
 
-export default AboutDDMA;
+export default Fm;

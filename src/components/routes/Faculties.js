@@ -6,7 +6,7 @@ function Faculties() {
 
   return (
     <main>
-      <p>{strings.faculties}</p>
+      <p className="Title-routes">{strings.faculties}</p>
       <ul>
         <li></li>
         <li></li>

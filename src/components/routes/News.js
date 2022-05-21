@@ -6,7 +6,7 @@ function News() {
 
   return (
     <main>
-      <p>{strings.news}</p>
+      <p className="Title-routes">{strings.news}</p>
       <ul>
         <li></li>
         <li></li>

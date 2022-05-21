@@ -5,9 +5,9 @@ function Regulations() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.regulations}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.regulations}</p>
+    </main>
   );
 }
 

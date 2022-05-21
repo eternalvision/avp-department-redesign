@@ -6,7 +6,7 @@ function Organizations() {
 
   return (
     <main>
-      <p>{strings.NGOs}</p>
+      <p className="Title-routes">{strings.NGOs}</p>
       <ul>
         <li></li>
         <li></li>

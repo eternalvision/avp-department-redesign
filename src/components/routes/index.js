@@ -13,6 +13,9 @@ import News from "./News";
 
 import { AboutDDMARoutes } from "./AboutDDMA/index";
 import { MainRoutes } from "./MainRoutes/index";
+import { ReactoratRoutes } from "./Rectorat/index";
+import { FacultiesRoutes } from "./Faculties/index";
+import { SubsectionsRoutes } from "./Subsections/index";
 
 export const RouteComponents = {
   AboutDDMA,
@@ -29,4 +32,7 @@ export const RouteComponents = {
   News,
   AboutDDMARoutes,
   MainRoutes,
+  ReactoratRoutes,
+  FacultiesRoutes,
+  SubsectionsRoutes,
 };

@@ -58,19 +58,19 @@ function Menu() {
           <Link to="/rectorat">{strings.rectorate}</Link>
           <ul className="submenu">
             <li>
-              <a href="">{strings.electionOfTheRector}</a>
+              <Link to="/rectorat/electionoftherector">{strings.electionOfTheRector}</Link>
             </li>
             <li>
-              <a href="">{strings.theCompositionOfTheAdministration}</a>
+              <Link to="/rectorat/compositionadministration">{strings.theCompositionOfTheAdministration}</Link>
             </li>
             <li>
-              <a href="">{strings.rectorsAddress}</a>
+              <Link to="/rectorat/administrationsappeal">{strings.rectorsAddress}</Link>
             </li>
             <li>
-              <a href="">{strings.functionsOfTheRectorate}</a>
+              <Link to="/rectorat/administrationsfunctions">{strings.functionsOfTheRectorate}</Link>
             </li>
             <li>
-              <a href="">{strings.rectorsGallery}</a>
+              <Link to="/rectorat/administrationgallery">{strings.rectorsGallery}</Link>
             </li>
           </ul>
         </li>
@@ -78,16 +78,16 @@ function Menu() {
           <Link to="/faculties">{strings.faculties}</Link>
           <ul className="submenu">
             <li>
-              <a href="">{strings.appAndIt}</a>
+              <Link to="/faculties/appandit">{strings.appAndIt}</Link>
             </li>
             <li>
-              <a href="">{strings.itAndEquipment}</a>
+              <Link to="/faculties/itandequipment">{strings.itAndEquipment}</Link>
             </li>
             <li>
-              <a href="">{strings.fM}</a>
+              <Link to="/faculties/fm">{strings.fM}</Link>
             </li>
             <li>
-              <a href="">{strings.economicsAndManagement}</a>
+              <Link to="/faculties/economicsandmanagement">{strings.economicsAndManagement}</Link>
             </li>
           </ul>
         </li>
@@ -95,28 +95,30 @@ function Menu() {
           <Link to="/subdivisions">{strings.subdivisions}</Link>
           <ul className="submenu">
             <li>
-              <a href="">{strings.centerForDistanceAndDistanceEducation}</a>
+              <Link to="/subdivisions/remotecenter">{strings.centerForDistanceAndDistanceEducation}</Link>
             </li>
             <li>
-              <a href="">{strings.itSolutionsCenter}</a>
+              <Link to="/subdivisions/itsolutionscenter">{strings.itSolutionsCenter}</Link>
             </li>
             <li>
-              <a href="">{strings.vspKfkPitbDsea}</a>
+              <Link to="/subdivisions/vspkfkpitbdsea">{strings.vspKfkPitbDsea}</Link>
             </li>
             <li>
-              <a href="">{strings.library}</a>
+              <Link to="/subdivisions/library">{strings.library}</Link>
             </li>
             <li>
-              <a href="">{strings.dtDdma}</a>
+              <Link to="/subdivisions/dtddma">{strings.dtDdma}</Link>
             </li>
             <li>
-              <a href="">{strings.departmentsAndServices}</a>
+              <Link to="/subdivisions/departmentsandservices">{strings.departmentsAndServices}</Link>
             </li>
             <li>
-              <a href="">{strings.tenderCommittee}</a>
+              <Link to="/subdivisions/tendercommittee">{strings.tenderCommittee}</Link>
             </li>
             <li>
-              <a href="">{strings.departmentOfInternalQualityAssuranceInHigherEducation}</a>
+              <Link to="/subdivisions/departamentofhighereducation">
+                {strings.departmentOfInternalQualityAssuranceInHigherEducation}
+              </Link>
             </li>
           </ul>
         </li>

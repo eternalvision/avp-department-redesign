@@ -5,9 +5,9 @@ function AcademicCouncil() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.academicCouncil}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.academicCouncil}</p>
+    </main>
   );
 }
 

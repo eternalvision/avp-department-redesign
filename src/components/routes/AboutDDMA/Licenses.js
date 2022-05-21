@@ -5,9 +5,9 @@ function Licenses() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.licensesAndCertificates}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.licensesAndCertificates}</p>
+    </main>
   );
 }
 

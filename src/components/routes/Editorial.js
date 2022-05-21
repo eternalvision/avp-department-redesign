@@ -6,7 +6,7 @@ function Editorial() {
 
   return (
     <main>
-      <p>{strings.wording}</p>
+      <p className="Title-routes">{strings.wording}</p>
       <ul>
         <li></li>
         <li></li>

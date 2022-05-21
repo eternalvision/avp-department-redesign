@@ -5,9 +5,9 @@ function History() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.history}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.history}</p>
+    </main>
   );
 }
 

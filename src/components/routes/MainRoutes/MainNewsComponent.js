@@ -3,7 +3,7 @@ import React from "react";
 function MainNewsComponent() {
   return (
     <main>
-      <p>Головна новина</p>
+      <p className="Title-routes">Головна новина</p>
       <ul>
         <li></li>
         <li></li>

@@ -6,7 +6,7 @@ function ForStudents() {
 
   return (
     <main>
-      <p>{strings.toTheStudent}</p>
+      <p className="Title-routes">{strings.toTheStudent}</p>
       <ul>
         <li></li>
         <li></li>

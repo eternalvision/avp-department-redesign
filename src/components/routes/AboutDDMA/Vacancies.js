@@ -5,9 +5,9 @@ function Vacancies() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.vacancies}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.vacancies}</p>
+    </main>
   );
 }
 

@@ -45,6 +45,66 @@ function App() {
         <Route exact path="/about/vacancies" element={<RouteComponents.AboutDDMARoutes.Vacancies />} />
         <Route exact path="/about/history" element={<RouteComponents.AboutDDMARoutes.History />} />
         <Route exact path="/about/contacts" element={<RouteComponents.AboutDDMARoutes.Contacts />} />
+
+        <Route
+          exact
+          path="/rectorat/electionoftherector"
+          element={<RouteComponents.ReactoratRoutes.RectorElection />}
+        />
+        <Route
+          exact
+          path="/rectorat/compositionadministration"
+          element={<RouteComponents.ReactoratRoutes.CompositionAdministration />}
+        />
+        <Route
+          exact
+          path="/rectorat/administrationsappeal"
+          element={<RouteComponents.ReactoratRoutes.AdministrationsAppeal />}
+        />
+        <Route
+          exact
+          path="/rectorat/administrationsfunctions"
+          element={<RouteComponents.ReactoratRoutes.AdministrationsFunctions />}
+        />
+        <Route
+          exact
+          path="/rectorat/administrationgallery"
+          element={<RouteComponents.ReactoratRoutes.AdministrationsGallery />}
+        />
+
+        <Route exact path="/faculties/appandit" element={<RouteComponents.FacultiesRoutes.AvpAndIt />} />
+        <Route exact path="/faculties/itandequipment" element={<RouteComponents.FacultiesRoutes.ItAndEquipment />} />
+        <Route exact path="/faculties/fm" element={<RouteComponents.FacultiesRoutes.Fm />} />
+        <Route
+          exact
+          path="/faculties/economicsandmanagement"
+          element={<RouteComponents.FacultiesRoutes.EconomAndManagement />}
+        />
+
+        <Route exact path="/subdivisions/remotecenter" element={<RouteComponents.SubsectionsRoutes.RemoteCenter />} />
+        <Route
+          exact
+          path="/subdivisions/itsolutionscenter"
+          element={<RouteComponents.SubsectionsRoutes.ITSolutionsCenter />}
+        />
+        <Route exact path="/subdivisions/vspkfkpitbdsea" element={<RouteComponents.SubsectionsRoutes.VSPk />} />
+        <Route exact path="/subdivisions/library" element={<RouteComponents.SubsectionsRoutes.Library />} />
+        <Route exact path="/subdivisions/dtddma" element={<RouteComponents.SubsectionsRoutes.DTddma />} />
+        <Route
+          exact
+          path="/subdivisions/departmentsandservices"
+          element={<RouteComponents.SubsectionsRoutes.DepartmentsAndServices />}
+        />
+        <Route
+          exact
+          path="/subdivisions/tendercommittee"
+          element={<RouteComponents.SubsectionsRoutes.TenderCommittee />}
+        />
+        <Route
+          exact
+          path="/subdivisions/departamentofhighereducation"
+          element={<RouteComponents.SubsectionsRoutes.DepartmentOfHigherEducation />}
+        />
       </Routes>
       <FooterComponents.Footer />
     </Router>

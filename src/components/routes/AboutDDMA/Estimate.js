@@ -5,9 +5,9 @@ function Estimate() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.estimateAndFinancialReport}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.estimateAndFinancialReport}</p>
+    </main>
   );
 }
 

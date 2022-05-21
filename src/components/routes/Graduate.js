@@ -6,7 +6,7 @@ function Graduate() {
 
   return (
     <main>
-      <p>{strings.toTheGraduate}</p>
+      <p className="Title-routes">{strings.toTheGraduate}</p>
       <ul>
         <li></li>
         <li></li>

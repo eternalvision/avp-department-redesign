@@ -6,7 +6,7 @@ function Science() {
 
   return (
     <main>
-      <p>{strings.science}</p>
+      <p className="Title-routes">{strings.science}</p>
       <ul>
         <li></li>
         <li></li>

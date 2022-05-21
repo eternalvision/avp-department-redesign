@@ -6,7 +6,7 @@ function Subdivisions() {
 
   return (
     <main>
-      <p>{strings.subdivisions}</p>
+      <p className="Title-routes">{strings.subdivisions}</p>
       <ul>
         <li></li>
         <li></li>

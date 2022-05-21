@@ -6,7 +6,7 @@ function Rectorat() {
 
   return (
     <main>
-      <p>{strings.rectorate}</p>
+      <p className="Title-routes">{strings.rectorate}</p>
       <ul>
         <li></li>
         <li></li>

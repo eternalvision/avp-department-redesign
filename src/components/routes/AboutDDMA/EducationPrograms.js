@@ -5,9 +5,9 @@ function EducationPrograms() {
   const strings = useTranslation();
 
   return (
-    <>
-      <div>{strings.educationalProgramsAndCurricula}</div>
-    </>
+    <main>
+      <p className="Title-routes">{strings.educationalProgramsAndCurricula}</p>
+    </main>
   );
 }
 

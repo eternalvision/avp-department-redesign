@@ -38,3 +38,10 @@
 .Scroll-top:hover {
   background-color: var(--hover-2);
 }
+
+.Title-routes {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
