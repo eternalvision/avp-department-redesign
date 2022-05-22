@@ -1,9 +1,28 @@
 :root {
-  --dark-background-color: #333333;
-  --dark-background-menu: #333333;
-  --dark-background-submenu: #242424;
+  --dark-background-color: #092720;
+  --dark-background-menu: #13493c;
+  --dark-background-submenu: #494949;
   --dark-color: #dfdfdf;
   --dark-hover: #989898;
   --dark-submenu-hover: #8e8e8e;
   --dark-border: 2px solid #8b8b8b;
+  --white-color: #fdfbfb;
+  --black-color: #081614;
+  --black-color-2: #000000a9;
+  --complementary-color: #e5e5e5;
+  --topmenu-li-hover: #e5e5e5;
+  --hover-2: #555;
+  --hover-3: rgb(202, 202, 202);
+  --main-content-color: #e1e3e3da;
+  --main-background-moz-gradient: -moz-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
+  --main-background-webkit-gradient: -webkit-linear-gradient(-121deg, #fdfbfb 0%, #eaedee 100%);
+  --main-background-gradient: linear-gradient(-121deg, #fdfbfbcb 0%, #eaedeeda 100%);
+  --shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+  --transparent: #00000000 !important;
+
+  --border: 2px solid #e5e5e5;
+  --border-radius: 20px;
+  --border-radius-2: 5px;
+  --blur: 20px;
+  --blur-2: 10px;
 }

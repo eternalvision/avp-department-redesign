@@ -34,5 +34,42 @@ a {
 }
 
 .Menu-list {
-  border-bottom: var(--dark-border);
+  border-bottom: none;
+}
+
+.Main-news-text p {
+  color: var(--black-color);
+}
+
+.Second-news-text {
+  color: var(--black-color);
+}
+
+.Social-main-title {
+  color: var(--black-color);
+}
+
+footer {
+  background-color: var(--dark-background-menu) !important;
+}
+
+.News-list p {
+  color: var(--black-color);
+}
+
+.News-list pre {
+  color: var(--black-color);
+}
+
+.Main-news-list div p {
+  color: var(--black-color);
+}
+
+.Main-news-list div pre {
+  color: var(--black-color);
+}
+
+.Scroll-top {
+  background-color: var(--white-color);
+  color: var(--black-color);
 }
