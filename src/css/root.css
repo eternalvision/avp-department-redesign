@@ -26,3 +26,7 @@ background: -moz-linear-gradient(to right,  #9999a4 0%,#60606b 100%);
 background: -webkit-linear-gradient(to right,  #9999a4 0%,#60606b 100%);
 background: linear-gradient(to right,  #9999a4 0%,#60606b 100%);
 */
+
+nav ul li a {
+  white-space: nowrap !important;
+}

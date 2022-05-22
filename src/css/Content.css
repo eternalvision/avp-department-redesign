@@ -280,6 +280,7 @@
     display: block;
   }
   .Second-news {
+    -ms-grid-columns: 260px 260px;
     grid-template-columns: 260px 260px;
   }
   .Second-news li img {
@@ -287,6 +288,7 @@
     height: 130px;
   }
   .Alerts {
+    -ms-grid-columns: 250px 250px;
     grid-template-columns: 250px 250px;
     /* padding: 10px; */
     margin: 10px;
@@ -336,5 +338,112 @@
   .News-list {
     padding-right: 0px;
     padding-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  .Logo-title {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1475px) {
+  nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  nav ul {
+    justify-content: start !important;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  footer {
+    padding-right: 0px !important;
+  }
+  .Numbers a {
+    white-space: nowrap !important;
+    font-size: 17px !important;
+  }
+  .News-list {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: block;
+    margin-bottom: 80px;
+    padding: 10px;
+  }
+  .News-list div:first-child img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .News-list div:nth-child(2) p {
+    margin-top: 20px;
+  }
+  .Content {
+    width: 400px;
+    padding-bottom: 60px;
+  }
+  .AllNews-Container li {
+    width: 100%;
+
+    /* padding: 10px; */
+  }
+  .Main-news li a img {
+    width: 380px;
+    height: 200px;
+  }
+  .Second-news {
+    margin: 0 auto;
+    grid-template-columns: 200px 200px;
+  }
+  .Second-news li {
+    width: 180px;
+  }
+  .Second-news li a img {
+    width: 160px;
+  }
+  .Second-news-text {
+    max-width: 160px !important;
+  }
+  .Second-news-text p:first-child {
+    font-size: 14px;
+  }
+  .Second-news-text p:nth-child(2) {
+    font-size: 13px;
+  }
+  .Alerts {
+    grid-template-columns: 190px 190px;
+    -ms-grid-columns: 190px 190px;
+  }
+  .Alerts li a img {
+    width: 170px;
+    height: 75px;
+  }
+
+  .Alerts li:nth-child(3) a img,
+  .Alerts li:nth-child(8) a img,
+  .Academy-magazine li a img {
+    width: 360px;
+  }
+
+  .Academy-magazine {
+    height: 120px;
+  }
+
+  .Social-main-title {
+    height: 50px;
+  }
+
+  .Academy-magazine li a img,
+  .Social-main-title {
+    width: 360px;
+  }
+
+  .Social-main-title p {
+    font-size: 15px;
+  }
+  .Main-news-list div:nth-child(2) pre {
+    padding-left: 0;
   }
 }

@@ -14,7 +14,7 @@ a {
 }
 
 .submenu {
-  background: var(--dark-background-submenu) !important;
+  background: var(--dark-background-menu-hover) !important;
 }
 
 .topmenu li:hover {
@@ -67,6 +67,10 @@ footer {
 
 .Main-news-list div pre {
   color: var(--black-color);
+}
+
+.Main-news-list div:first-child p {
+  color: var(--white-color);
 }
 
 .Scroll-top {
