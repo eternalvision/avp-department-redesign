@@ -6,7 +6,7 @@ function AcademyMagazine() {
   return (
     <ul className="Academy-magazine">
       <li>
-        <Link to="/main/academymagazine">
+        <Link to="/academymagazine">
           <img src={academyMagazine.gazetaBanner} alt="" />
           <div className="Social-main-title">
             <p>Свіжий номер газети «Академія» вже на сайті</p>

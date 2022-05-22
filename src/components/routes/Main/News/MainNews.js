@@ -16,24 +16,26 @@ function MainNews() {
     fetchData();
   }, []);
 
-  return (
-    <li>
-      {items.map((item) => (
+  if (items !== undefined) {
+    return (
+      <li>
         <ul className="Main-news">
-          <li id={item._id} key={item._id}>
-            <Link to="/main/topnews">
-              <img src={item.imageUrl} alt="" />
-              <div className="Main-news-text">
-                <p>{item.title.substring(0, 34)}...</p>
-                <p>{item.description.substring(0, 400)}...</p>
-              </div>
-            </Link>
-          </li>
+          {items.map((item) => (
+            <li id={item._id} key={item._id}>
+              <Link to={`/topnews/${item._id}`}>
+                <img src={item.imageUrl} alt="" />
+                <div className="Main-news-text">
+                  <p>{item.title.substring(0, 34)}...</p>
+                  <p>{item.description.substring(0, 400)}...</p>
+                </div>
+              </Link>
+            </li>
+          ))}
         </ul>
-      ))}
-      <SecondaryNews />
-    </li>
-  );
+        <SecondaryNews />
+      </li>
+    );
+  }
 }
 
 export default MainNews;

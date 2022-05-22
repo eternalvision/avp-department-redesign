@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
 import { HeaderComponents, FooterComponents } from "./components/index";
 import { RouteComponents } from "./components/routes/index";
 
@@ -23,8 +22,10 @@ function App() {
         <Route exact path="/editorial" element={<RouteComponents.Editorial />} />
         <Route exact path="/news" element={<RouteComponents.News />} />
 
-        <Route exact path="/main/academymagazine" element={<RouteComponents.MainRoutes.Gazeta />} />
-        <Route exact path="/main/topnews" element={<RouteComponents.MainRoutes.MainNewsComponent />} />
+        <Route exact path="/academymagazine" element={<RouteComponents.MainRoutes.Gazeta />} />
+        <Route exact path="/topnews/:id" element={<RouteComponents.MainRoutes.MainNewsComponent />} />
+        <Route exact path="/news/:id" element={<RouteComponents.MainRoutes.NewsComponent />} />
+        <Route exact path="/alertsnews/:id" element={<RouteComponents.MainRoutes.AlertsComponent />} />
 
         <Route exact path="/alerts/solutionscenter" element={<RouteComponents.MainRoutes.SolutionsCenter />} />
         <Route exact path="/alerts/solutionscenter" element={<RouteComponents.MainRoutes.InnovationCenter />} />

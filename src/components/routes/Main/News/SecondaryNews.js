@@ -13,21 +13,23 @@ function SecondaryNews() {
     fetchData();
   }, []);
 
-  return (
-    <ul className="Second-news">
-      {items.map((item) => (
-        <li id={item._id} key={item._id}>
-          <Link to="">
-            <img src={item.imageUrl} alt="" />
-            <div className="Second-news-text">
-              <p>{item.title.substring(0, 15)}...</p>
-              <p>{item.description.substring(0, 135)}...</p>
-            </div>
-          </Link>
-        </li>
-      ))}
-    </ul>
-  );
+  if (items !== undefined) {
+    return (
+      <ul className="Second-news">
+        {items.map((item) => (
+          <li id={item._id} key={item._id}>
+            <Link to={`/news/${item._id}`}>
+              <img src={item.imageUrl} alt="" />
+              <div className="Second-news-text">
+                <p>{item.title.substring(0, 15)}...</p>
+                <p>{item.description.substring(0, 135)}...</p>
+              </div>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    );
+  }
 }
 
 export default SecondaryNews;
