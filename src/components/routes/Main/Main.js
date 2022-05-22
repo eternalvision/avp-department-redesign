@@ -1,6 +1,7 @@
 import React from "react";
 
 import { NewsComponents } from "./News/index.js";
+
 // import useTranslation from "../customHooks/translations";
 
 function Main() {

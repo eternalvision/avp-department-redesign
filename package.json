@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.1.1",
     "@testing-library/user-event": "^13.5.0",
     "@urban-bot/telegram": "^0.3.4",
+    "axios": "^0.27.2",
     "firebase": "^9.6.11",
     "postcss-normalize": "^10.0.1",
     "react": "^18.0.0",
