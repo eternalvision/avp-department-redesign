@@ -48,13 +48,20 @@ nav a {
 }
 
 .topmenu li a {
-  padding: 20px;
+  padding: 20px 7px;
   font-size: 15px;
   color: var(--black-color);
   text-transform: uppercase;
   font-weight: bold;
   flex-wrap: nowrap;
+  /* border-right: 1px solid #000; */
 }
+/* .topmenu li a:first-child {
+  border-right: var(--border);
+}
+.topmenu li:nth-last-child(-n + 2) a {
+  border-right: none;
+} */
 
 .topmenu li:hover {
   background-color: var(--hover-3);

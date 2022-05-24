@@ -25,6 +25,11 @@
   display: flex;
 }
 
+.Main-news a li:hover,
+.Second-news a li:hover {
+  transform: scale(1.01);
+}
+
 .News-list {
   box-shadow: var(--shadow);
   /* background-color: var(--main-content-color); */

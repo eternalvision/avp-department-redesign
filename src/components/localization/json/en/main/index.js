@@ -1,5 +1,5 @@
 import dataMainTitles from "./dataMainTitles.json";
 
-export const mainItems = {
+export const enMainItems = {
   dataMainTitles,
 };

@@ -1,24 +1,31 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import { NewsComponents } from "./News/index.js";
 
-// import useTranslation from "../../customHooks/translations";
+import useTranslation from "../../customHooks/translations";
 
 function Main() {
-  // const strings = useTranslation();
+  const strings = useTranslation();
 
   return (
     <main>
       <section className="Content-title">
         <ul className="Main-content-list">
           <li>
-            <h3 className="Main-headlines">Новини</h3>
+            <Link to="/news">
+              <h3 className="Main-headlines">{strings.news}</h3>
+            </Link>
           </li>
           <li>
-            <h3 className="Main-headlines">Оголошення</h3>
+            <Link to="/alertsnews">
+              <h3 className="Main-headlines">{strings.alerts}</h3>
+            </Link>
           </li>
           <li>
-            <h3 className="Main-headlines">Iнше</h3>
+            <Link to="/other">
+              <h3 className="Main-headlines">{strings.otherTitle}</h3>
+            </Link>
           </li>
         </ul>
       </section>

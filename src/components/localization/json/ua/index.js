@@ -1,3 +1,4 @@
 import { menuItems } from "./menu/index";
+import { mainItems } from "./main/index";
 
-export { menuItems };
+export { menuItems, mainItems };

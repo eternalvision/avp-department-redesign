@@ -1,4 +1,4 @@
-import { menuItems } from "./ua/index";
-import { enMenuItems } from "./en/index";
+import { menuItems, mainItems } from "./ua/index";
+import { enMenuItems, enMainItems } from "./en/index";
 
-export { menuItems, enMenuItems };
+export { menuItems, mainItems, enMenuItems, enMainItems };
