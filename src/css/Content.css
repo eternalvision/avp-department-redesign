@@ -488,3 +488,21 @@
     width: 310px;
   }
 }
+
+@media only screen and (max-width: 320px) {
+  .Content {
+    width: 300px;
+  }
+  .Main-news-text p:first-child {
+    font-size: 15px;
+  }
+  .Main-news-text p:nth-child(2) {
+    font-size: 13.5px;
+  }
+  .Main-news-text {
+    width: 280px;
+  }
+  .Main-news li a img {
+    max-height: 100%;
+  }
+}
