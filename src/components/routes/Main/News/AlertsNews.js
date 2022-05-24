@@ -17,7 +17,7 @@ function AlertsNews() {
     <ul className="Second-news">
       {items.map((item) => (
         <Link to={`/alertsnews/${item._id}`} key={item._id}>
-          <li id={item._id}>
+          <li>
             <img src={item.imageUrl} alt="" />
             <div className="Second-news-text">
               <p>{item.title.substring(0, 15)}...</p>
