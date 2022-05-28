@@ -21,10 +21,10 @@
 }
 
 /*
-background: #9999a4;
-background: -moz-linear-gradient(to right,  #9999a4 0%,#60606b 100%);
-background: -webkit-linear-gradient(to right,  #9999a4 0%,#60606b 100%);
-background: linear-gradient(to right,  #9999a4 0%,#60606b 100%);
+  background: #d7dadc;
+  background: -moz-linear-gradient(to right, #d7dadc 0%, #edf3f3 100%);
+  background: -webkit-linear-gradient(to right, #d7dadc 0%, #edf3f3 100%);
+  background: linear-gradient(to right, #d7dadc 0%, #edf3f3 100%);
 */
 
 nav ul li a {

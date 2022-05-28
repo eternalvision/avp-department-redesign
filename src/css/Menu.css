@@ -1,7 +1,7 @@
 .Menu-list {
   justify-content: space-between;
   display: flex;
-  padding: 30px 40px 20px;
+  padding: 20px 40px 20px;
   margin-bottom: 0;
   color: var(--black-color);
   border-bottom: var(--border);
@@ -54,14 +54,7 @@ nav a {
   text-transform: uppercase;
   font-weight: bold;
   flex-wrap: nowrap;
-  /* border-right: 1px solid #000; */
 }
-/* .topmenu li a:first-child {
-  border-right: var(--border);
-}
-.topmenu li:nth-last-child(-n + 2) a {
-  border-right: none;
-} */
 
 .topmenu li:hover {
   background-color: var(--hover-3);

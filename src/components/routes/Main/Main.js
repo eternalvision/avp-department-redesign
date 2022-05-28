@@ -9,7 +9,7 @@ function Main() {
   const strings = useTranslation();
 
   return (
-    <main>
+    <main className="main">
       <section className="Content-title">
         <ul className="Main-content-list">
           <li>

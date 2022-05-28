@@ -31,7 +31,17 @@ body {
   background: var(--main-background-webkit-gradient);
   background: var(--main-background-gradient);
   background-repeat: no-repeat;
-  padding-bottom: 77px;
+  /* padding-bottom: 77px; */
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 1 auto;
 }
 
 ul {

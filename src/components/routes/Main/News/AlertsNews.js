@@ -16,15 +16,15 @@ function AlertsNews() {
   return (
     <ul className="Second-news">
       {items.map((item) => (
-        <Link to={`/alertsnews/${item._id}`} key={item._id}>
-          <li>
+        <li key={item._id}>
+          <Link to={`/alertsnews/${item._id}`} key={item._id}>
             <img src={item.imageUrl} alt="" />
             <div className="Second-news-text">
               <p>{item.title.substring(0, 15)}...</p>
               <p>{item.description.substring(0, 130)}...</p>
             </div>
-          </li>
-        </Link>
+          </Link>
+        </li>
       ))}
     </ul>
   );

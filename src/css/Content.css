@@ -210,9 +210,9 @@
 }
 
 .Additional-content {
-  position: sticky;
+  /* position: sticky; */
   position: -webkit-sticky;
-  top: 75px;
+  /* top: 75px; */
 }
 
 .Academy-magazine {

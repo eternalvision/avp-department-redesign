@@ -21,15 +21,15 @@ function MainNews() {
       <li>
         <ul className="Main-news">
           {items.map((item) => (
-            <Link to={`/topnews/${item._id}`} key={item._id}>
-              <li>
+            <li key={item._id}>
+              <Link to={`/topnews/${item._id}`}>
                 <img src={item.imageUrl} alt="" />
                 <div className="Main-news-text">
                   <p>{item.title.substring(0, 34)}...</p>
                   <p>{item.description.substring(0, 400)}...</p>
                 </div>
-              </li>
-            </Link>
+              </Link>
+            </li>
           ))}
         </ul>
         <SecondaryNews />
