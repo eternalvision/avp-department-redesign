@@ -27,18 +27,21 @@
 
 .Scroll-top {
   position: fixed;
-  bottom: 33px;
+  bottom: 25px;
   right: 45px;
   z-index: 99;
   border: none;
   outline: none;
-  background-color: var(--black-color);
+  background-color: #081614cf;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px))
   color: var(--white-color);
   box-shadow: var(--shadow);
   cursor: pointer;
   padding: 15px;
   border-radius: var(--border-radius-2);
   font-size: 15px;
+  color: var(--white-color);
 }
 
 .Scroll-top:hover {

@@ -67,7 +67,8 @@
 
 .Main-news-list div:nth-child(2) {
   box-shadow: var(--shadow);
-  background-color: #e5e5e5;
+  background-color: var(--main-content-color);
+
   padding: 20px;
   margin: 0 20px 20px 20px;
   border-radius: 20px;

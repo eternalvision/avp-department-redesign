@@ -9,7 +9,8 @@ a {
   color: var(--dark-color) !important;
 }
 
-.topmenu {
+.topmenu,
+nav {
   background: var(--dark-background-menu) !important;
 }
 
