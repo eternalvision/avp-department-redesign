@@ -13,9 +13,10 @@ nav {
   top: 0;
   z-index: 1;
   background: var(--main-background-gradient);
-  backdrop-filter: blur(var(--blur));
-  -webkit-backdrop-filter: blur(var(--blur));
+  /* backdrop-filter: blur(var(--blur)); */
+  /* -webkit-backdrop-filter: blur(var(--blur)); */
   box-shadow: var(--shadow);
+  background-color: var(--white-color);
 }
 
 nav ul {

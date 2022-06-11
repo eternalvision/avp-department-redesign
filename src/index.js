@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import SimpleReactLightbox from "simple-react-lightbox";
 
 import App from "./App";
 import "./css/index.css";
@@ -19,7 +20,9 @@ root.render(
   <React.StrictMode>
     <LanguageContextProvider>
       <ThemeSwitcherProvider defaultTheme="light" themeMap={themes}>
-        <App />
+        <SimpleReactLightbox>
+          <App />
+        </SimpleReactLightbox>
       </ThemeSwitcherProvider>
     </LanguageContextProvider>
   </React.StrictMode>

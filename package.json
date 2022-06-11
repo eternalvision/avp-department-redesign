@@ -9,6 +9,7 @@
     "axios": "^0.27.2",
     "firebase": "^9.6.11",
     "postcss-normalize": "^10.0.1",
+    "process": "^0.11.10",
     "react": "^18.0.0",
     "react-alice-carousel": "^2.6.0",
     "react-css-theme-switcher": "^0.3.0",
@@ -20,6 +21,7 @@
     "react-select": "^5.3.0",
     "react-slide-routes": "^2.0.0",
     "react-switch": "^6.0.0",
+    "simple-react-lightbox": "^1.4.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

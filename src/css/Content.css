@@ -87,6 +87,7 @@
 .Main-news-list img {
   border-radius: 20px;
   box-shadow: var(--shadow);
+  cursor: pointer;
 }
 
 .News-list img {
@@ -424,31 +425,30 @@
     width: 170px;
     height: 75px;
   }
-
   .Alerts li:nth-child(3) a img,
   .Alerts li:nth-child(8) a img,
   .Academy-magazine li a img {
     width: 360px;
   }
-
   .Academy-magazine {
     height: 120px;
   }
-
   .Social-main-title {
     height: 50px;
   }
-
   .Academy-magazine li a img,
   .Social-main-title {
     width: 360px;
   }
-
   .Social-main-title p {
     font-size: 15px;
   }
   .Main-news-list div:nth-child(2) pre {
     padding-left: 0;
+  }
+  .Scroll-top {
+    right: 20px !important;
+    bottom: 10px !important;
   }
 }
 

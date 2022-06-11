@@ -1,6 +1,8 @@
 import React from "react";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
+import { SRLWrapper } from "simple-react-lightbox";
+import { options } from "../../options";
 
 import { sliderImage } from "../../../img";
 
@@ -29,6 +31,14 @@ const items = [
 ];
 
 function Slider() {
+  // console.log(...sliderImage);
+  //   const imgData = [
+  //     sliderImage.map((item) => (
+  //       <div div key = { item.id } className = "item" data-value={ item.id } >
+  //     <img src={item.url} className="sliderimg" alt="" />
+  //       </div>
+  // )),
+  //   ];
   return (
     <div className="Slider">
       <AliceCarousel

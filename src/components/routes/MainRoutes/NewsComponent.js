@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { SRLWrapper } from "simple-react-lightbox";
 
 function NewsComponent() {
   const [items, setItems] = useState([]);
@@ -25,7 +26,9 @@ function NewsComponent() {
         <ul>
           <li key={object._id} className="News-list">
             <div>
-              <img src={object.imageUrl} alt="" />
+              <SRLWrapper>
+                <img src={object.imageUrl} alt="" className="image" />
+              </SRLWrapper>
             </div>
             <div>
               <p>{object.title}</p>

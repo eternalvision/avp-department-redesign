@@ -29,7 +29,7 @@
   position: fixed;
   bottom: 25px;
   right: 45px;
-  z-index: 99;
+  z-index: 3;
   border: none;
   outline: none;
   background-color: #081614cf;

@@ -1,0 +1,20 @@
+.SRLImage {
+  border-radius: 20px;
+}
+
+.SRLContent {
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+#SRLLightbox {
+  z-index: 4 !important;
+}
+
+.SRLThumb {
+  border-radius: 5px;
+}
+
+.SRLThumbnails {
+  margin-bottom: 20px;
+}

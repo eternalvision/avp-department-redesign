@@ -7,6 +7,7 @@
 @import url("./Footer");
 @import url("./Menu");
 @import url("./Slider");
+@import url("./SRLImage");
 
 * {
   box-sizing: border-box;
@@ -33,7 +34,6 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  box-shadow: var(--shadow);
   background-color: #687275 !important;
 }
 
